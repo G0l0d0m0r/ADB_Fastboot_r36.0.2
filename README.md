@@ -3,7 +3,7 @@
 ADB (Android Debug Bridge) и Fastboot — это два инструмента командной строки, которые позволяют компьютеру взаимодействовать с устройством на базе операционной системы Android. По сути, это «кабели», по которым ПК передает команды телефону.
 Они работают на разных уровнях и нужны для разных задач.
 
-Ссылка для скачивания - [Platform-tools+r36.0.2-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/blob/main/Platform-tools%2Br36.0.2-windows.zip)
+Ссылка для скачивания - [Platform-tools+r36.0.2-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)
 
 ## 1. ADB (Android Debug Bridge)
 Когда используется: 
