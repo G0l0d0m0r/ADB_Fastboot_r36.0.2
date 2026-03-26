@@ -3,10 +3,15 @@
 ADB (Android Debug Bridge) и Fastboot — это два инструмента командной строки, которые позволяют компьютеру взаимодействовать с устройством на базе операционной системы Android. По сути, это «кабели», по которым ПК передает команды телефону.
 Они работают на разных уровнях и нужны для разных задач.
 
+### Содержание  
+[1. ADB (Android Debug Bridge)](#chapter-0)  
+[2. Fastboot](#chapter-1)  
+[3. Разблокировка и блокировка загрузчика](#chapter-2)
+
 Ссылка для скачивания - [Platform-tools+r36.0.2-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)
 
 
-
+<a id="chapter-0"></a>
 ## 1. ADB (Android Debug Bridge)
 Когда используется: 
 * Когда Android-устройство уже загружено (вы видите рабочее поле устройства).
@@ -26,6 +31,7 @@ ADB (Android Debug Bridge) и Fastboot — это два инструмента 
 * `adb sideload rom.zip` - передаёт файл rom.zip (LineageOS, GApps, Magisk) с ПК в recovery по USB и автоматически устанавливает его на Android-устройство (daisy) в режиме ADB Sideload.
 * `adb sideload gapps.zip` - передаёт gapps.zip GApps с ПК в recovery по USB и устанавливает Google Apps (Play Store, Gmail, Maps, Play Services) после прошивки операционной системы 
 
+<a id="chapter-1"></a>
 ## 2. Fastboot
 Когда используется: 
 * Когда Android-устройство не загружено и находится в специальном режиме Bootloader (или Fastboot Mode). Это происходит до запуска операционной системы.
@@ -47,7 +53,8 @@ ADB (Android Debug Bridge) и Fastboot — это два инструмента 
 * `fastboot flash boot_a boot.img` - запись предоставленного файла boot.img в раздел boot Android-устройства в режиме fastboot (bootloader), заменяя текущее ядро (kernel) и ramdisk в **раздел a** (при условии поддержки устройством бесшовных обновлений).
 * `fastboot flash boot_b boot.img` - запись предоставленного файла boot.img в раздел boot Android-устройства в режиме fastboot (bootloader), заменяя текущее ядро (kernel) и ramdisk в **раздел b** (при условии поддержки устройством бесшовных обновлений).
 
-## Разблокировка и блокировка загрузчика
+<a id="chapter-2"></a>
+## 3. Разблокировка и блокировка загрузчика
 
 1. Прежде всего, необходимо обязательно разрешить разблокировку загрузчика на вашем устройстве.
 Для этого, активируйте меню "Для разработчиков": Перейдите в "Настройки" -> "О телефоне" -> 7 раз нажмите на пункт "Номер сборки".
