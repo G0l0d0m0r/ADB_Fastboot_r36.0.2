@@ -1,4 +1,4 @@
-# Драйверы Adb и Fastboot для прошивки телефонов (на примере версии r36.0.2 для Windows)
+# Драйверы Adb и Fastboot для прошивки телефонов
 
 ADB (Android Debug Bridge) и Fastboot — это два инструмента командной строки, которые позволяют компьютеру взаимодействовать с устройством на базе операционной системы Android. По сути, это «кабели», по которым ПК передает команды телефону.
 Они работают на разных уровнях и нужны для разных задач.
@@ -8,7 +8,12 @@ ADB (Android Debug Bridge) и Fastboot — это два инструмента 
 [2. Fastboot](#chapter-1)  
 [3. Разблокировка и блокировка загрузчика](#chapter-2)
 
-Ссылка для скачивания - [Platform-tools+r36.0.2-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)
+Скачать:  
+💾[tools_r33.0.1-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)  
+💾[tools_r33.0.1-macosx.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)  
+💾[tools_r33.0.1-linux.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)  
+USB Driver:  
+💾[usb_driver_r13-windows.zip](https://github.com/G0l0d0m0r/adb-fastboot-r36.0.2-/raw/refs/heads/main/Platform-tools+r36.0.2-windows.zip)
 
 
 <a id="chapter-0"></a>
