@@ -26,7 +26,8 @@ ADB (Android Debug Bridge) и Fastboot — это два инструмента 
 * Создание бекапов: Некоторые программы используют ADB для создания полных резервных копий данных.
 Кратко: ADB нужен для управления телефоном, когда он работает как обычно.
 ### Основные доступные команды
-* `С:\platform-tools>adb --version` - версия программы ADB
+* `adb --version` - версия программы ADB
+* `adb devices` - проверка доступности Android-устройства
 * `adb reboot bootloader` - перезагрузка Android-устройства из работающей ОС в режим bootloader/fastboot без нажатия кнопок (при активированной USB отладке)
 * `adb reboot recovery` - перезагружает Android-устройство из работающей ОС в режим recovery без нажатия кнопок (при активированной USB отладке).
 * `adb shell recovery --adbsideload` - включает режим ADB Sideload в recovery на Android-устройстве для установки ZIP-файлов (LineageOS, GApps, Magisk) с ПК без копирования на телефон.
